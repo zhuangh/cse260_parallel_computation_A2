@@ -3,5 +3,5 @@ GPU CUDA programming Assignment 2
 
 Hao Zhuang
 PhD student in Computer Science
-hao.zhuang@cs.ucsd.edu
+hao.zhuang at cs.ucsd.edu
 
