@@ -1,0 +1,65 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A	genMatrix.cpp	15;"	d	file:
+APP	28-Oct-2012/Makefile	/^APP=mmpy$/;"	m
+APP	Makefile	/^APP=mmpy$/;"	m
+APP	Oct23/Makefile	/^APP=mmpy$/;"	m
+BLOCKING	28-Oct-2012/Makefile	/^BLOCKING = $(DIM_X) $(DIM_Y)$/;"	m
+BLOCKING	Makefile	/^BLOCKING = $(DIM_X) $(DIM_Y)$/;"	m
+BLOCKING	Oct23/Makefile	/^BLOCKING = $(DIM_X) $(DIM_Y)$/;"	m
+C	genMatrix.cpp	28;"	d	file:
+CARVER	28-Oct-2012/Makefile	/^CARVER = $(shell hostname | grep cvrsvc | wc -c)$/;"	m
+CARVER	Makefile	/^CARVER = $(shell hostname | grep cvrsvc | wc -c)$/;"	m
+CARVER	Oct23/Makefile	/^CARVER = $(shell hostname | grep cvrsvc | wc -c)$/;"	m
+CSECLASS	28-Oct-2012/Makefile	/^CSECLASS = $(shell hostname | grep cseclass | wc -c)$/;"	m
+CSECLASS	Makefile	/^CSECLASS = $(shell hostname | grep cseclass | wc -c)$/;"	m
+CSECLASS	Oct23/Makefile	/^CSECLASS = $(shell hostname | grep cseclass | wc -c)$/;"	m
+C_d	genMatrix.cpp	80;"	d	file:
+C_h	genMatrix.cpp	79;"	d	file:
+DIM_X	28-Oct-2012/Makefile	/^	DIM_X = -DBLOCKDIM_X=$(bx)$/;"	m
+DIM_X	Makefile	/^	DIM_X = -DBLOCKDIM_X=$(bx)$/;"	m
+DIM_X	Oct23/Makefile	/^	DIM_X = -DBLOCKDIM_X=$(bx)$/;"	m
+DIM_Y	28-Oct-2012/Makefile	/^	DIM_Y = -DBLOCKDIM_Y=$(by)$/;"	m
+DIM_Y	Makefile	/^	DIM_Y = -DBLOCKDIM_Y=$(by)$/;"	m
+DIM_Y	Oct23/Makefile	/^	DIM_Y = -DBLOCKDIM_Y=$(by)$/;"	m
+LILLIPUT	28-Oct-2012/Makefile	/^LILLIPUT = $(shell hostname | grep lilliput | wc -c)$/;"	m
+LILLIPUT	Makefile	/^LILLIPUT = $(shell hostname | grep lilliput | wc -c)$/;"	m
+LILLIPUT	Oct23/Makefile	/^LILLIPUT = $(shell hostname | grep lilliput | wc -c)$/;"	m
+MACS	28-Oct-2012/Makefile	/^MACS = $(shell hostname | grep apm2402 | wc -c)$/;"	m
+MACS	Makefile	/^MACS = $(shell hostname | grep apm2402 | wc -c)$/;"	m
+MACS	Oct23/Makefile	/^MACS = $(shell hostname | grep apm2402 | wc -c)$/;"	m
+OBJECTS	28-Oct-2012/Makefile	/^OBJECTS = mmpy.o  mmpy_host.o  genMatrix.o cmdLine.o Timer.o utils.o Report.o$/;"	m
+OBJECTS	Makefile	/^OBJECTS = mmpy.o  mmpy_host.o  genMatrix.o cmdLine.o Timer.o utils.o Report.o setGrid.o$/;"	m
+OBJECTS	Oct23/Makefile	/^OBJECTS = mmpy.o  mmpy_host.o  genMatrix.o cmdLine.o Timer.o utils.o Report.o$/;"	m
+PUB	28-Oct-2012/Makefile	/^PUB	= \/class\/public\/cse260-fa12$/;"	m
+PUB	28-Oct-2012/Makefile	/^PUB     = \/class\/public\/cse260-fa12$/;"	m
+PUB	28-Oct-2012/Makefile	/^PUB = \/global\/u2\/b\/baden\/cse260-fa12$/;"	m
+PUB	28-Oct-2012/Makefile	/^PUB = \/share\/class\/public\/cse260-fa12$/;"	m
+PUB	Makefile	/^PUB	= \/class\/public\/cse260-fa12$/;"	m
+PUB	Makefile	/^PUB     = \/class\/public\/cse260-fa12$/;"	m
+PUB	Makefile	/^PUB = \/global\/u2\/b\/baden\/cse260-fa12$/;"	m
+PUB	Makefile	/^PUB = \/share\/class\/public\/cse260-fa12$/;"	m
+PUB	Oct23/Makefile	/^PUB	= \/class\/public\/cse260-fa12$/;"	m
+PUB	Oct23/Makefile	/^PUB     = \/class\/public\/cse260-fa12$/;"	m
+PUB	Oct23/Makefile	/^PUB = \/global\/u2\/b\/baden\/cse260-fa12$/;"	m
+PUB	Oct23/Makefile	/^PUB = \/share\/class\/public\/cse260-fa12$/;"	m
+_DOUBLE_	types.h	15;"	d
+_DOUBLE_	types.h	17;"	d
+_UTILS_H	utils.h	3;"	d
+cmdLine	cmdLine.cpp	/^void cmdLine(int argc, char *argv[], int& n, int& reps, int& ntx, int& nty, _DOUBLE_ & eps, int& do_host, int& prefer_l1){$/;"	f
+fabs	genMatrix.cpp	30;"	d	file:
+genMatrix	genMatrix.cpp	/^void genMatrix( _DOUBLE_ *a, unsigned int m, unsigned int n)$/;"	f
+getTime	Timer.cpp	/^double getTime()$/;"	f
+gflops	Report.cpp	/^double gflops(int n, int reps, double time){$/;"	f
+kMicro	Timer.cpp	/^const double kMicro = 1.0e-6;$/;"	v
+matMulHost	mmpy_host.cpp	/^matMulHost(_DOUBLE_  *C, const _DOUBLE_  *A, const _DOUBLE_  *B, unsigned int m, unsigned int n)$/;"	f
+perfString	Report.cpp	/^void perfString(int n, int ntx, int nty, int reps, double t_h, double gflops_h, double t_d, double gflops_d)$/;"	f
+printMatrix	genMatrix.cpp	/^void printMatrix( _DOUBLE_ *a, unsigned int m, unsigned int n)$/;"	f
+printTOD	Report.cpp	/^void printTOD(string mesg)$/;"	f
+types_h	types.h	13;"	d
+verify	genMatrix.cpp	/^void verify( _DOUBLE_ *c, unsigned int m, unsigned int n, _DOUBLE_ epsilon, char *mesg)$/;"	f
+verify	genMatrix.cpp	/^void verify( _DOUBLE_ *c_d, _DOUBLE_ *c_h, unsigned int m, unsigned int n, _DOUBLE_ epsilon, char *mesg)$/;"	f

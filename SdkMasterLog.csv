@@ -1,0 +1,21 @@
+> CUBLAS         576.0281 GFlop/s, Time = 0.00137 s, Size = 786432000 Ops
+
+> CUDA matrixMul 180.5192 GFlop/s, Time = 0.00436 s, Size = 786432000 Ops, NumDevsUsed = 1, Workgroup = 1024
+> CUBLAS         573.8565 GFlop/s, Time = 0.00137 s, Size = 786432000 Ops
+
+> CUDA matrixMul 180.5496 GFlop/s, Time = 0.00436 s, Size = 786432000 Ops, NumDevsUsed = 1, Workgroup = 1024
+> CUBLAS         576.0844 GFlop/s, Time = 0.00137 s, Size = 786432000 Ops
+
+> CUDA matrixMul 180.5040 GFlop/s, Time = 0.00436 s, Size = 786432000 Ops, NumDevsUsed = 1, Workgroup = 1024
+> CUBLAS         576.4363 GFlop/s, Time = 0.00136 s, Size = 786432000 Ops
+
+> CUDA matrixMul 180.5911 GFlop/s, Time = 0.00435 s, Size = 786432000 Ops, NumDevsUsed = 1, Workgroup = 1024
+> CUBLAS         572.8811 GFlop/s, Time = 0.00137 s, Size = 786432000 Ops
+
+> CUDA matrixMul 180.5234 GFlop/s, Time = 0.00436 s, Size = 786432000 Ops, NumDevsUsed = 1, Workgroup = 1024
+> CUBLAS         575.9860 GFlop/s, Time = 0.00137 s, Size = 786432000 Ops
+
+> CUDA matrixMul 180.5192 GFlop/s, Time = 0.00436 s, Size = 786432000 Ops, NumDevsUsed = 1, Workgroup = 1024
+> CUBLAS         574.5552 GFlop/s, Time = 0.00137 s, Size = 786432000 Ops
+
+> CUDA matrixMul 180.5524 GFlop/s, Time = 0.00436 s, Size = 786432000 Ops, NumDevsUsed = 1, Workgroup = 1024
